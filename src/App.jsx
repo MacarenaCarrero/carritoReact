@@ -1,13 +1,13 @@
-import Button from './components/button/Button';
+import CardProduct from './components/cardProduct/CardProduct';
+import ContainerProducts from './components/containerProducts/ContainerProducts';
 
 const App = () => {
   return (
-    <>
-      <h1>React</h1>
-      <Button />
-    </>
-  ); //resultado
+    <div className='product'>
+      <h2 className='title'>¡Hola desde App!</h2>
+      <CardProduct title='Producto molón' />
+    </div>
+  );
 };
 
 export default App;
-//esto es una funcion jsx
